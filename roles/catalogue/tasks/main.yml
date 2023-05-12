@@ -1,3 +1,4 @@
-- name: Demo
+- name: Import Common NodeJs
   ansible.builtin.debug:
-    msg: Component - Catalogue
+    name: common
+    tasks_from: nodejs
