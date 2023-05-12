@@ -5,7 +5,7 @@
      ansible.builtin.copy:
          src: mongo.repo
          dest: /etc/yum.repos.d/mongo.repo
-   - name: Install MongoDB clint
+   - name: Install MongoDB client
      ansible.builtin.yum:
          name: mongodb-org-shell
          state: installed
